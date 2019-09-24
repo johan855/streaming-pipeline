@@ -1,0 +1,32 @@
+
+syntax = "proto3";
+package tutorial;
+
+import "google/protobuf/timestamp.proto";
+
+message TaxfixEvent {
+   string id = 1;
+   string received_at = 2;
+   string anonymous_id = 3;
+   string context_app_version = 4;
+   bool context_device_ad_tracking_enabled = 5;
+   string context_device_manufacturer = 6;
+   string context_device_model = 7;
+   string context_device_type = 8;
+   string context_library_name = 9;
+   string context_library_version = 10;
+   string context_locale = 11;
+   string context_network_wifi = 12;
+   string context_os_name = 13;
+   string event = 14;
+   string event_text = 15;
+   string original_timestamp = 16;
+   string sent_at = 17;
+   string timestamp = 18;
+   string user_id = 19;
+   string context_network_carrier = 20;
+   string context_device_token = 21;
+   string context_traits_taxfix_language = 22;
+
+  google.protobuf.Timestamp last_updated = 23;
+}
