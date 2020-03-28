@@ -28,7 +28,7 @@ Schema validation detail
 The way we use Protobufs for controling data quality is by using their Schema definition as a data
 mask.
 This data mask will accept the content of a JSON event structured according to the schema defined
-in the `taxfixevents_pb2` class.
+in the protobuff class` class.
 Using error handling it is possible to quickly determine what the nature of the issue is, as well
 as ensuring the pipeline is not broken and the errors can be analyzed in the future.
 All failed events will have default data that whould be easy to spot and either remove or ignore.
