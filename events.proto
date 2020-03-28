@@ -26,7 +26,7 @@ message CustomerEvent {
    string user_id = 19;
    string context_network_carrier = 20;
    string context_device_token = 21;
-   string context_traits_taxfix_language = 22;
+   string context_traits_customertaxfix_language = 22;
 
   google.protobuf.Timestamp last_updated = 23;
 }
