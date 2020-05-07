@@ -20,8 +20,8 @@ In conclusion, this method of schema validation will provie the following benefi
 * Maintainability: Easy to support and maintain
 
 To install Protobufs, please follow the instructions [here](https://github.com/protocolbuffers/protobuf).
-After installing the package, you can use the .proto file to generate the class file taxfixevents_pb2.py
-using the following command: `protoc -python_out=./ ./taxfixevents.proto`
+After installing the package, you can use the .proto file to generate the class file fixevents_pb2.py
+using the following command: `protoc -python_out=./ ./fixevents.proto`
 
 Schema validation detail
 ------------------------
